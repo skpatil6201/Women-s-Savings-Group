@@ -1,0 +1,86 @@
+/* Reset styles */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Hero section styles */
+.hero {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #007bff;
+  color: #fff;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #fff;
+  color: #007bff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #e5e5e5;
+}
+
+/* About section styles */
+.about {
+  padding: 50px 0;
+  text-align: center;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+.resources ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.resources ul li {
+  margin-bottom: 10px;
+}
+
+.resources ul li a {
+  text-decoration: none;
+  color: #0066cc;
+}
+
+.resources ul li a:hover {
+  text-decoration: underline;
+}
